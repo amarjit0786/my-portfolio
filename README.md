@@ -11,16 +11,16 @@ Welcome to my developer portfolio built using **React.js**, **Tailwind CSS**, an
 ## 📸 Screenshots
 
 ### 🔻 Home Page  
-![Home Page](./assets/screenshots/homepage.png)
+![Home Page](./src/assets/screenshots/homepage.png)
 
 ### 🗂️ Projects Section  
-![Projects](./assets/screenshots/projects.png)
+![Projects](./src/assets/screenshots/projects.png)
 
-### 🎵 About Section  
-![Music Player](./assets/screenshots/about.png)
+###  About Section  
+![Music Player](./src/assets/screenshots/about.png)
 
 ### ✉️ Contact Form  
-![Contact Form](./assets/screenshots/contact.png)
+![Contact Form](./src/assets/screenshots/contact.png)
 
 ---
 
