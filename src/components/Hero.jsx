@@ -76,7 +76,8 @@ const Hero = () => {
       >
         <img
           src={profileImg}
-          alt="Profile"
+          alt="Amarjit Singh - Web Developer Profile Picture"
+          loading="lazy"
           className="rounded-full border-4 border-indigo-600 shadow-xl"
         />
       </motion.div>
