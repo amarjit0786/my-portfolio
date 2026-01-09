@@ -104,15 +104,23 @@ const About = () => {
           </motion.div>
 
           {/* 📄 Resume Button */}
-          <motion.a
+          {/* <motion.a
             href={resumePDF}
-            download="Amarjit-Singh-Resume"
+            download="Amarjit-Singh-Resume" 
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block px-6 py-3 bg-indigo-600 text-white font-semibold rounded-full hover:bg-indigo-700 transition"
           >
             Download Resume
-          </motion.a>
+          </motion.a> */}
+          <motion.button
+            disabled
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-6 py-3 bg-gray-400 text-white font-semibold rounded-full cursor-not-allowed opacity-60"
+          >
+            Download Resume
+          </motion.button>
         </div>
       </div>
 
