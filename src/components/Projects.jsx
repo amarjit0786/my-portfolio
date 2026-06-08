@@ -5,12 +5,23 @@ import { useInView } from "react-intersection-observer";
 
 const projects = [
   {
+    title: "CityGlide",
+    category: "Fullstack",
+    description:
+      "A MERN stack platform for buying, selling, and renting bikes. Features include secure JWT authentication, bike listing management, rental booking system, Cloudinary image uploads, seller approval workflow, and an admin dashboard for complete platform management.",
+    github: "https://github.com/amarjit0786/online-bike-selling-renting",
+    live: "https://online-bike-selling-renting.vercel.app/",
+    image: "/images/cityglide.png",
+    tech: ["React", "Node.js", "Express", "MongoDB", "JWT", "Cloudinary"],
+    featured: true,
+  },
+  {
     title: "Airbnb Clone",
     category: "Fullstack",
     description:
       "A full-featured Airbnb clone built using MERN stack. Users can sign up/login, create/edit property listings, browse others' listings, post reviews, and delete them.",
-      github:"https://github.com/amarjit0786/prog-amar",
-      live:"https://wanderlust-xi4o.onrender.com/",
+    github: "https://github.com/amarjit0786/prog-amar",
+    live: "https://wanderlust-xi4o.onrender.com/",
     image: "/images/wanderlust.png",
     link: "https://github.com/amarjit0786/airbnb-clone",
     featured: true,
@@ -19,7 +30,8 @@ const projects = [
   {
     title: "Zerodha Clone",
     category: "Fullstack",
-    description: "A MERN stack-based stock trading platform inspired by Zerodha. Features include user signup/login, dashboard access, and simulated buy/sell functionality.",
+    description:
+      "A MERN stack-based stock trading platform inspired by Zerodha. Features include user signup/login, dashboard access, and simulated buy/sell functionality.",
     github: "https://github.com/amarjit0786/Zerodha-clone",
     live: "https://zerodha-clone-frontend-547a.onrender.com/",
     image: "/images/zerodha.png",

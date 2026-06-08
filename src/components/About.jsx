@@ -35,7 +35,7 @@ const timelineData = [
     title: "Projects & Practical Experience",
     time: "2023 - Present",
     description:
-      "Built and deployed full-stack projects like an Airbnb Clone, a Zoom-like video conferencing app (MeetHub), and a perfume e-commerce site. Experience also includes domain + hosting setup (GoDaddy & Hostinger).",
+      "Developed and deployed multiple full-stack MERN applications including CityGlide (bike marketplace and rental platform), Airbnb Clone, Zerodha Clone, and MeetHub (video conferencing platform). Hands-on experience with JWT authentication, role-based access control, Cloudinary image management, REST APIs, admin dashboards, and deployment using modern hosting solutions.",
   },
 ];
 
